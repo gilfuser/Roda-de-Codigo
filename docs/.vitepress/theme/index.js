@@ -4,6 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
 /** @type {import('vitepress').Theme} */
+// import Hydra from 'hydra-synth'
 export default {
   extends: DefaultTheme,
   Layout: () => {
@@ -12,6 +13,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('HydraComponent')
   }
 }

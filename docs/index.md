@@ -4,12 +4,15 @@ layout: home
 
 hero:
   name: "Roda de Código"
-  text: "Oficina de som e imagem em tempo real através de código"
-  tagline: My great project tagline
+  text: "Som e imagem em tempo real feitos com código"
+  tagline: Oficina de criação e performance em grupo
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
+    - theme: brand
+      text: A Oficina
+      link: /a_oficina/introducao
     - theme: alt
       text: API Examples
       link: /api-examples
@@ -23,3 +26,10 @@ features:
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<script setup>
+import HydraComponent from './components/HydraComponent.vue'
+</script>
+
+<!-- <clientOnly>
+<HydraComponent />
+</clientOnly -->
